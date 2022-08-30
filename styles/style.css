@@ -108,11 +108,12 @@ h1{
 }
 .icon-blog{
     display: flex;
+    justify-content: space-around;
 }
 .fa-clock{
-    margin: 0 20px;
+    margin: 0 5px;
 }
 .fa-comment-dots{
-    margin: 0 20px;
+    margin: 0 5px;
 }
 
