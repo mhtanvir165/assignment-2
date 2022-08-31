@@ -9,7 +9,7 @@ body{
 ------------------------------- */
 @media screen and (max-width: 576px) {
 
-    body{
+    body .top{
         margin: 0%;
     }
     .top .top-banner{
@@ -17,7 +17,7 @@ body{
     }
     .menu-blog{
         flex-direction: column;
-        grid-row-gap: 20px;
+        grid-row-gap: 2px;
         align-items: center;
         
     }
@@ -48,9 +48,7 @@ body{
 ------------------------------------ */
 @media screen and (min-width: 577px) and (max-width: 768px) {
 
-    body{
-        margin: 0%;
-    }
+
    
     .menu-blog{
         flex-direction: column;
@@ -58,13 +56,15 @@ body{
     .menu-blog .nav-bar{
         display: flex;
         background-color: white;
-        
-        margin: 0%;
-        padding-left: 15%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        height: 80px;
     }
 
     .menu-blog .blog-sec{
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
     footer .footer-goal{
