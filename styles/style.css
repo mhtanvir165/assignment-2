@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 10%;
+    margin: 0%;
     }
 /* -------------------------------
         Responsive For Mobile
@@ -18,6 +19,7 @@ body{
         flex-direction: column;
         grid-row-gap: 20px;
         align-items: center;
+        
     }
     .menu-blog .nav-bar{
         background-color: white;
@@ -25,6 +27,19 @@ body{
     }
     .menu-blog .blog-sec{
         grid-template-columns: repeat(1, 1fr);
+    }
+    footer .footer-goal{
+        color: white;
+        width: 100%;
+        height: 100px;
+        margin-top: 1200px;
+    }
+    footer .short-titel{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        color: white;
+        background-color: black;
     }
     
 }
@@ -36,9 +51,7 @@ body{
     body{
         margin: 0%;
     }
-    .top .top-banner{
-        flex-direction: column;
-    }
+   
     .menu-blog{
         flex-direction: column;
     }
@@ -53,7 +66,24 @@ body{
     .menu-blog .blog-sec{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
+    footer .footer-goal{
+        color: white;
+        width: 100%;
+        height: 100px;
+        margin-top: 300px;
+    }
+    footer hr{
+        width: 50%;
+    }
+    footer .goal{
+        
+        padding-top: 20px;
+    }
+    footer .shortcut{
+        /* text-align: center; */
+        padding: 5px;
+    }
     
 }
 
@@ -61,9 +91,8 @@ body{
     top-banner
 ---------------------- */
 .top{
-    /* display: flex;
-    justify-content: center; */
-    margin: 10% 0;
+   
+    margin: 2% 10%;
     
 }
 .top-banner{
@@ -77,14 +106,15 @@ body{
 
 h1{
     font-weight: 700;
-    font-size: 3em;
+    font-size: 30px;
 }
 .banner-text{
     width: 70%;
     padding: 20px 50px;
 }
 .banner-button{
-    padding: 10px 20px;
+    width: 120px;
+    height: 50px;
     color: white;
     background-color: yellowgreen;
     border-radius: 5px;
@@ -101,6 +131,7 @@ h1{
 
 .menu-blog{
     display: flex;
+    margin: 2% 10%;
     
     
 }
@@ -165,9 +196,36 @@ h1{
     justify-content: space-around;
 }
 .fa-clock{
+    
     margin: 0 5px;
 }
 .fa-comment-dots{
     margin: 0 5px;
 }
 
+/* ------------------------------------
+                Footer
+------------------------------------- */
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+    margin-top: 150px;
+}
+.goal{
+    /* font-weight: 700; */
+    text-align: center;
+    padding-top: 30px;
+}
+hr{
+    width: 70%;
+}
+
+.short-titel{
+    text-align: center;
+}
+.shortcut{
+    text-align: center;
+    padding: 20px;
+}
