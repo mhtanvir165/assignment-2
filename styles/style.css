@@ -7,6 +7,10 @@ body{
         Responsive For Mobile
 ------------------------------- */
 @media screen and (max-width: 576px) {
+
+    body{
+        margin: 0%;
+    }
     .top .top-banner{
         flex-direction: column;
     }
