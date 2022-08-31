@@ -159,6 +159,10 @@ h1{
     border-radius: 5px;
     margin: 2px 5px;
 }
+.nav-button a{
+    text-decoration: none;
+    color: white;
+}
 .selected{
     text-align: center;
     width: 120px;
